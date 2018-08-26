@@ -3,8 +3,7 @@
 Create an instances of derived object.We create an object without exposing the creation logic. This pattern fully use an interface  
 
 **Sample Case**
-1. Strategic approach: Algorithm selection
-2. Switching implementation (i.e: Get data from db or redis)
+1. Create instance from the same parent
 
 **When to use it**
 1. Subclasses figure out what objects should be created.
